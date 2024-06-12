@@ -24,7 +24,7 @@ const data = [
     testimonialHeading:
       "Review on Consultation Services for Data Analytics and Visualization",
     testimonial:
-      "I learned a lot from Sohaib. He delved deep into Power BI and SQL, sharing many useful tools and techniques. I'm very thankful for his expertise. Thank you!",
+      "I learned a lot from Sohaib. He delved deep into Power BI and SQL, sharing many useful tools and techniques. Im very thankful for his expertise. Thank you!",
     type: "Fiverr Review",
   },
 ];
