@@ -1,0 +1,40 @@
+.gradient-text {
+    background: linear-gradient(to right, #007991, #78ffd6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block; /* Required to apply gradient to inline elements like text */
+  }
+
+  .swiper-button-next,
+.swiper-button-prev {
+    display: none;
+}
+
+/* Change the color of the pagination dots */
+.swiper-pagination-bullet {
+  background: #ffffff; /* Blue, or any color you prefer */
+}
+
+/* Change the color of the active pagination dot */
+.swiper-pagination-bullet-active {
+  background: #ddff00; /* Green, or any color you prefer */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #022d32; /* Change this color as needed */
+  animation: slideOut 1.5s ease forwards;
+}
+
+@keyframes slideOut {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
