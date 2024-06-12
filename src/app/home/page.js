@@ -154,11 +154,7 @@ const Home = () => {
         </div>
       </div>
       <p className="text-md mt-4">
-        I am a full stack developer with an experience of 2+ years now. I have
-        multiple projects under my belt which are deployed and running
-        successfully. I am also a passionate data analyst. Ive proven my skills
-        in data analysis and visualization by working on freelance projects. I
-        am always looking for new opportunities to learn and grow.
+        I am a full stack developer with an experience of over 2 years now. I have multiple projects under my belt which are deployed and running successfully. I am also a passionate data analyst. Ive proven my skills in data analysis and visualization by working on freelance projects. I am always looking for new opportunities to learn and grow.
       </p>
       <div className="mt-10">
         <Experience />
