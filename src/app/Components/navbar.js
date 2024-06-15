@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <div className="flex flex-row gap-10 p-4 fixed w-full justify-end bg-gray-900">
+    <div className="flex flex-row gap-10 p-4 fixed w-full justify-end bg-gray-900 z-10">
       <Link to="home" smooth={true} duration={500} className="text-white cursor-pointer">
         Home
       </Link>
