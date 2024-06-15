@@ -5,6 +5,20 @@ import "swiper/swiper-bundle.css";
 
 const data = [
   {
+    name: "Ibrahim Sheikh",
+    testimonialHeading: "Review on web development services",
+    testimonial:
+      "Sohaib has been truly exceptional with all the work. He went beyond my expectations always to deliver quality work within a proper timeframe. I would highly recommend Sohaib to someone whose looking to get things done in a clean way and wants thorough cooperation from a dev. More way to go with him in my case",
+    type: "CEO Boston Pixels",
+  },
+  {
+    name: "Muhammad Talal",
+    testimonialHeading: "Review on performance at Mative Inc.",
+    testimonial:
+      "I had the pleasure of working with Sohaib, and I am highly impressed by his expertise . His technical skills are excellent, and his ability to consistently deliver high-quality work is commendable. He is very reliable and dedicated which make him an invaluable asset to any project. It's rare to find someone who combines both talent and professionalism so seamlessly. I highly recommend Sohaib to anyone looking for a skilled and dependable developer.",
+    type: "CEO Mative Inc.",
+  },
+  {
     name: "donaldmccullum",
     testimonialHeading: "Review on Data Analytics Tutoring",
     testimonial:

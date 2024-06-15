@@ -1,17 +1,19 @@
 "use client";
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Typewriter from "typewriter-effect";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { useCallback } from "react";
 import { motion } from "framer-motion";
-import AnimatedCharacters from "./AnimatedText";
 import Testimonials from "./testimonials";
 import Experience from "./experience";
+import Skills from "./skills";
 
 import "./home.css";
 
 const Home = () => {
+  const [loading, setLoading] = useState(true);
+  const loadingText = "Welcome to the world of Sohaib Ahmed!";
   const particlesInit = useCallback(async (engine) => {
     console.log(engine);
     await loadFull(engine);
@@ -23,8 +25,8 @@ const Home = () => {
     const timer = setTimeout(() => {
       setShowOverlay(false);
       //take to top of the page
-      window.scrollTo(0, 0);
-    }, 1000); 
+      // window.scrollTo(0, 0);
+    }, 3500);
 
     return () => clearTimeout(timer);
   }, []);
@@ -116,7 +118,7 @@ const Home = () => {
             },
             move: {
               enable: true,
-              speed: 2,
+              speed: 1,
               direction: "none",
               random: false,
               straight: false,
@@ -154,14 +156,22 @@ const Home = () => {
         </div>
       </div>
       <p className="text-md mt-4">
-        I am a full stack developer with an experience of over 2 years now. I have multiple projects under my belt which are deployed and running successfully. I am also a passionate data analyst. Ive proven my skills in data analysis and visualization by working on freelance projects. I am always looking for new opportunities to learn and grow.
+        I am a full stack developer with an experience of over 2 years now. I
+        have multiple projects under my belt which are deployed and running
+        successfully. I am also a passionate data analyst. Ive proven my skills
+        in data analysis and visualization by working on freelance projects. I
+        am always looking for new opportunities to learn and grow.
       </p>
+
       <div className="mt-10">
         <Experience />
       </div>
       <div className="mt-10">
+        <Skills />
+      </div>
+      <div className="mt-20">
         <div className="text-center">
-          <h1 className="text-2xl font-bold">What the clients say about me</h1>
+          <h1 className="text-2xl font-bold">What my clients say about me</h1>
         </div>
         <Testimonials />
       </div>
