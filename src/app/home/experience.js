@@ -6,14 +6,14 @@ const Experience = () => {
     {
       title: "Web Developer",
       company: "Mative Inc.",
-      duration: "2024 - Present",
+      duration: "2023 - Present",
       description:
         "Working on developing and maintaining web applications using React, Node.js, and MongoDB/Firebase. The applications are built for clients in various industries such as employers, construction business, and e-commerce.",
     },
     {
       title: "Software Engineer",
       company: "Vintage Solutions",
-      duration: "2023 - Present",
+      duration: "2023 - 2024",
       description:
         "Project based work for development and deployment of various software applications. Stack used was MERN. Had the oppurtunity to learn Next.js as well. Deployed applications on Vercel, Render, Hostinger and AWS.",
     },
